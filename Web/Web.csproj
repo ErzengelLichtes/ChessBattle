@@ -93,6 +93,7 @@
     <Content Include="Scripts\jquery-3.2.1.min.js" />
     <Content Include="Scripts\jquery-3.2.1.slim.js" />
     <Content Include="Scripts\jquery-3.2.1.slim.min.js" />
+    <Content Include="Scripts\powers.js" />
     <Content Include="Web.config" />
     <Content Include="main.scss" />
   </ItemGroup>
