@@ -32,6 +32,11 @@
     }
 }
 
+function Cell(x, y) {
+    this.x = x;
+    this.y = y;
+}
+
 
 $(document).ready(function () {
     var testBoard = new Board(8, 8);
