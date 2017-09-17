@@ -34,6 +34,12 @@ function Cell(x, y) {
     this.cell.obj = this;
 }
 
+function Piece(settings) {
+    this.cost    = settings.cost    || 1;
+    this.move    = settings.move    || 1;
+    this.range   = settings.range   || 1;
+    this.maximum = settings.maximum || 1;
+}
 
 $(document).ready(function () {
     var testBoard = new Board(8, 8);
