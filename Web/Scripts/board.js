@@ -3,10 +3,13 @@
     this.height  = height;
     this.rows    = [];
     this.squares = [];
+
     this.table = document.createElement("table");
+    this.table.obj = this;
     $(this.table).addClass("board");
     this.table.tbody = document.createElement("tbody");
     this.table.appendChild(this.table.tbody);
+
     var y = 0;
     for (; y < height; ++y) {
         var row = document.createElement("tr");
