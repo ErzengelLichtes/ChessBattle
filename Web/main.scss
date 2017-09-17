@@ -1,0 +1,13 @@
+﻿
+$squareSize: 64px;
+
+table.board
+{
+    border-collapse: collapse;
+    td {
+        width : $squareSize;
+        height: $squareSize;
+        border: 1px solid black;
+    }
+}
+

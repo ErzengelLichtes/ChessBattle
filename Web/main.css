@@ -1,0 +1,7 @@
+﻿table.board {
+  border-collapse: collapse; }
+  table.board td {
+    width: 64px;
+    height: 64px;
+    border: 1px solid black; }
+
