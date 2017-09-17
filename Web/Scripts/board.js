@@ -18,14 +18,12 @@
         this.table.tbody.appendChild(row);
         var x = 0;
         for (; x < width; ++x) {
-            var cell = document.createElement("td");
-            cell.index_x = x;
-            cell.index_y = y;
+            var cell = new Cell(x, y);
 
             
 
             
-            row.appendChild(cell);
+            row.appendChild(cell.cell);
             row.squares.push(cell);
             this.squares.push(cell);
         }
@@ -35,6 +33,8 @@
 function Cell(x, y) {
     this.x = x;
     this.y = y;
+    this.cell = document.createElement("td");
+    this.cell.obj = this;
 }
 
 
