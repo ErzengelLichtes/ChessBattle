@@ -20,9 +20,6 @@
         for (; x < width; ++x) {
             var cell = new Cell(x, y);
 
-            
-
-            
             row.appendChild(cell.cell);
             row.squares.push(cell);
             this.squares.push(cell);
