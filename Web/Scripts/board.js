@@ -39,6 +39,13 @@ function Piece(settings) {
     this.move    = settings.move    || 1;
     this.range   = settings.range   || 1;
     this.maximum = settings.maximum || 1;
+    this.powers = [];
+    if (Array.isArray(settings.powers)) {
+        var powers = this.powers;
+        settings.powers.forEach(function (power) {
+            powers.push(window.powers[power]);
+        });
+    }
 }
 
 
