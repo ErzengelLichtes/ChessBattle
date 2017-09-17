@@ -49,4 +49,8 @@
             "afterAttack": "attack",
         },
     ];
+    window.powers = {};
+    powers.forEach(function(x) {
+        window.powers[x.name] = x;
+    });
 });
