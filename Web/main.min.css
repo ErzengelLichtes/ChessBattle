@@ -1,1 +1,1 @@
-﻿table.board{border-collapse:collapse;}table.board td{width:64px;height:64px;border:1px solid #000;}
+﻿table.board{border-collapse:collapse;}table.board td{width:64px;height:64px;border:1px solid #000;}table.board td.moveHighlight{background-color:#f08080;border-color:#ff7f50;}table.board td.firstX{border-left-width:3px;border-left-color:#f00;}table.board td.lastX{border-right-width:3px;border-right-color:#f00;}table.board td.firstY{border-top-width:3px;border-top-color:#f00;}table.board td.lastY{border-bottom-width:3px;border-bottom-color:#f00;}

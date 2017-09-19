@@ -4,4 +4,19 @@
     width: 64px;
     height: 64px;
     border: 1px solid black; }
+  table.board td.moveHighlight {
+    background-color: lightcoral;
+    border-color: coral; }
+  table.board td.firstX {
+    border-left-width: 3px;
+    border-left-color: red; }
+  table.board td.lastX {
+    border-right-width: 3px;
+    border-right-color: red; }
+  table.board td.firstY {
+    border-top-width: 3px;
+    border-top-color: red; }
+  table.board td.lastY {
+    border-bottom-width: 3px;
+    border-bottom-color: red; }
 

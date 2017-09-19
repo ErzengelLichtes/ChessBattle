@@ -1,13 +1,41 @@
 ﻿
 $squareSize: 64px;
+$borderOutlineSize: 3px;
+$movementOutlineColor: red;
 
-table.board
-{
+table.board {
     border-collapse: collapse;
+
     td {
-        width : $squareSize;
+        width: $squareSize;
         height: $squareSize;
         border: 1px solid black;
     }
+
+    td.moveHighlight {
+        background-color: lightcoral;
+        border-color: coral;
+    }
+
+    td.firstX {
+        border-left-width: $borderOutlineSize;
+        border-left-color: $movementOutlineColor;
+    }
+
+    td.lastX {
+        border-right-width: $borderOutlineSize;
+        border-right-color: $movementOutlineColor;
+    }
+
+    td.firstY {
+        border-top-width: $borderOutlineSize;
+        border-top-color: $movementOutlineColor;
+    }
+
+    td.lastY {
+        border-bottom-width: $borderOutlineSize;
+        border-bottom-color: $movementOutlineColor;
+    }
 }
+
 

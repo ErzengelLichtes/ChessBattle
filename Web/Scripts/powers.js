@@ -1,5 +1,5 @@
 ﻿(function() {
-    var powers = [
+    var powersArr = [
         {
             name: "support",
             neighbor: {
@@ -50,7 +50,7 @@
         },
     ];
     window.powers = {};
-    powers.forEach(function(x) {
+    powersArr.forEach(function(x) {
         window.powers[x.name] = x;
     });
-});
+})();
